@@ -164,6 +164,9 @@ footer h6{
     .navbar .cart{
         margin-top: 13px !important;
     }
+    .navbar button{
+        display: block;
+    }
 }
 /* small device (landscape phones, 400px and up) */
 @media (min-width: 400px) {
@@ -226,6 +229,9 @@ footer h6{
     .navbar .cart{
         margin-top: 13px !important;
     }
+    .navbar button{
+        display: block;
+    }
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 500px) { 
@@ -287,6 +293,9 @@ footer h6{
     }
     .navbar .cart{
         margin-top: 13px !important;
+    }
+    .navbar button{
+        display: block;
     }
  }
 
@@ -351,6 +360,9 @@ footer h6{
     .navbar .cart{
         margin-top: 13px !important;
     }
+    .navbar button{
+        display: block;
+    }
  }
 
 /* // Large devices (desktops, 992px and up) */
@@ -414,6 +426,9 @@ footer h6{
     .navbar .cart{
         margin-top: 0px !important;
     }
+    .navbar button{
+        display: none;
+    }
  }
 
 /* // X-Large devices (large desktops, 1200px and up) */
@@ -476,6 +491,9 @@ footer h6{
     }
     .navbar .cart{
         margin-top: 0px !important;
+    }
+    .navbar button{
+        display: none;
     }
  }
 
