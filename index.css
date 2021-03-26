@@ -8,8 +8,12 @@ ul li{
 ul li a{
     color: #000 !important;
 }
+
 body {
     height:;
+}
+.card-designer{
+    margin: 20px 0;
 }
 .section-contact label{
     font-weight: 600;
@@ -106,7 +110,7 @@ footer h6{
 /* smal device (landscape phones, 300 and up) */
 @media (min-width: 300px) {
     .section-banner .text-content h1{
-        font-size: 45px;
+        font-size: 39px;
         font-weight: 500;
     }
     .section-banner .text-content{
@@ -115,7 +119,7 @@ footer h6{
     }
     .section-banner .img-content img{
         width: 100%;
-        height: 100%;
+        height: 10%;
         margin-left: 0px;
         margin-top: 50px;
     }
@@ -124,7 +128,7 @@ footer h6{
         border-bottom: 3px solid #000;
         padding-bottom: 5px;
         margin-bottom: -8px;
-        display: block;
+        display: none;
     }
     .navbar ul li a:hover::after{
         content: '';
@@ -146,7 +150,7 @@ footer h6{
         text-align: center;
     }
     .section-about .text-content p{
-        font-size: 12px;
+        font-size: 11px;
     }
     .section-about .img-content .kotak{
         border: 2px solid #fff;
@@ -159,10 +163,11 @@ footer h6{
     .section-sponsor img{
         width: 28%;
         height: 30%;
-        margin: 10px 7px;
+        margin: 10px 5px;
     }
     .navbar .cart{
         margin-top: 13px !important;
+        margin-left: 24px !important;
     }
     .navbar button{
         display: block;
@@ -228,6 +233,7 @@ footer h6{
     }
     .navbar .cart{
         margin-top: 13px !important;
+        margin-left: 24px !important;
     }
     .navbar button{
         display: block;
@@ -293,6 +299,7 @@ footer h6{
     }
     .navbar .cart{
         margin-top: 13px !important;
+        margin-left: 24px !important;
     }
     .navbar button{
         display: block;
@@ -359,6 +366,7 @@ footer h6{
     }
     .navbar .cart{
         margin-top: 13px !important;
+        margin-left: 24px !important;
     }
     .navbar button{
         display: block;
@@ -425,6 +433,7 @@ footer h6{
     }
     .navbar .cart{
         margin-top: 0px !important;
+        margin-left: 0px !important;
     }
     .navbar button{
         display: none;
@@ -491,6 +500,7 @@ footer h6{
     }
     .navbar .cart{
         margin-top: 0px !important;
+        margin-left:0px !important;
     }
     .navbar button{
         display: none;
